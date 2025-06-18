@@ -1,81 +1,83 @@
+
+
 <p align="center"><img src="https://massgrave.dev/img/logo_small.png" alt="MAS Logo"></p>
 
 <h1 align="center">Microsoft  Activation  Scripts (MAS)</h1>
 
-<p align="center">Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.</p>
+<p align="center">开源的 Windows 和 Office 激活工具，支持 HWID、Ohook、TSforge、KMS38 和在线 KMS 激活方法，并提供高级故障排除功能。</p>
 
 <hr>
   
-## How to Activate Windows / Office?
+## 如何激活 Windows / Office？
 
-### Method 1 - PowerShell (Windows 8 and later) ❤️
+### 方法 1 - PowerShell (Windows 8 及更高版本) ❤️
 
-1.   **Open PowerShell**  
-	To do that, press the Windows key + X, then select PowerShell or Terminal.
+1.   **打开 PowerShell**  
+	按下 Windows 键 + X，然后选择 PowerShell 或终端。
 
-2.   **Copy and paste the code below, then press enter.**  
+2.   **复制并粘贴以下代码，然后按回车。**  
 ```
 irm https://get.activated.win | iex
 ```
-Alternatively, you can use the following (this will be deprecated in the future):  
+或者，您可以使用以下代码（未来将弃用）：  
 ```
 irm https://massgrave.dev/get | iex
 ```
 
-3.   You will see the activation options. Choose the activation options highlighted in green. 
+3.   您将看到激活选项。选择绿色高亮的激活选项。
 
-4.   That's all
+4.   就这样
 
 ---
 
-### Method 2 - Traditional (Windows Vista and later)
+### 方法 2 - 传统方法 (Windows Vista 及更高版本)
 
 <details>
-  <summary>Click here to view</summary>
+  <summary>点击这里查看</summary>
   
-1.   Download the file using one of the links below:  
+1.   使用以下链接之一下载文件：  
 `https://github.com/massgravel/Microsoft-Activation-Scripts/archive/refs/heads/master.zip`  
-or  
+或  
 `https://git.activated.win/massgrave/Microsoft-Activation-Scripts/archive/master.zip`
-2.   Right-click on the downloaded zip file and extract it.
-3.   In the extracted folder, find the folder named `All-In-One-Version`.
-4.   Run the file named `MAS_AIO.cmd`.
-5.   You will see the activation options. Follow the on-screen instructions.
-6.   That's all.
+2.   右键点击下载的 zip 文件并解压。
+3.   在解压后的文件夹中，找到名为 `All-In-One-Version` 的文件夹。
+4.   运行名为 `MAS_AIO.cmd` 的文件。
+5.   您将看到激活选项。按照屏幕上的说明进行操作。
+6.   就这样。
 
 </details>
 
 ---
 
-- To activate additional products such as **Office for macOS, Visual Studio, RDS CALs, and Windows XP**, check [here](https://massgrave.dev/unsupported_products_activation).
-- To run the scripts in unattended mode, check [here](https://massgrave.dev/command_line_switches).
+- 要激活其他产品，例如 **macOS 的 Office、Visual Studio、RDS CALs 和 Windows XP**，请查看[这里](https://massgrave.dev/unsupported_products_activation)。
+- 要在无人值守模式下运行脚本，请查看[这里](https://massgrave.dev/command_line_switches)。
 
 ---
 
-### Not working ❓
+### 不工作 ❓
 
-- If you are **unable to launch MAS** using the PowerShell method, please refer to **Method 2** listed above.
-- If MAS is launched and the script shows any errors, check for any troubleshooting steps mentioned in blue color and try to follow those.
-- If you have any issues, please feel free to reach out to us [here](https://massgrave.dev/troubleshoot).
+- 如果您**无法使用 PowerShell 方法启动 MAS**，请参考上面列出的**方法 2**。
+- 如果 MAS 启动后脚本显示任何错误，请检查蓝色字体中提到的故障排除步骤并尝试遵循。
+- 如果您有任何问题，请随时通过[这里](https://massgrave.dev/troubleshoot)联系我们。
 
 ---
 
-> [!NOTE]
+> [!注意]
 >
-> - The IRM command in PowerShell downloads a script from a specified URL, and the IEX command executes it.
-> - Always double-check the URL before executing the command and verify the source if manually downloading files.
-> - Be cautious, as some spread malware disguised as MAS by using different URLs in the IRM command.
+> - PowerShell 中的 IRM 命令从指定的 URL 下载脚本，IEX 命令执行它。
+> - 在执行命令之前始终仔细检查 URL，并在手动下载文件时验证来源。
+> - 请小心，因为有些人通过在 IRM 命令中使用不同的 URL 来传播伪装成 MAS 的恶意软件。
 
 ---
 
 ```
-Latest Version: 3.4
-Release date: 3-June-2025
+最新版本：3.4
+发布日期：2025年6月3日
 ```
 
-### [Troubleshooting / Help](https://massgrave.dev/troubleshoot)
-### [Download Original Windows & Office](https://massgrave.dev/genuine-installation-media)
-### Homepage - [https://massgrave.dev/](https://massgrave.dev/)
+### [故障排除 / 帮助](https://massgrave.dev/troubleshoot)
+### [下载原版 Windows & Office](https://massgrave.dev/genuine-installation-media)
+### 主页 - [https://massgrave.dev/](https://massgrave.dev/)
 
 <div align="center">
   
@@ -113,4 +115,5 @@ Release date: 3-June-2025
 
 ---
 
-<p align="center">Made with Love ❤️</p>
+<p align="center">用爱制作 ❤️</p>
+      
